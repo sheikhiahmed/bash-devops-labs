@@ -90,7 +90,7 @@ for user in "$@"; do
 done
 ```
 
-[*] Accepts multiple usernames from CLI and creates them only if they don’t already exist.
+- [ ] Accepts multiple usernames from CLI and creates them only if they don’t already exist.
 
 ---
 
@@ -102,7 +102,7 @@ for host in $(cat hosts.txt); do
 done
 ```
 
-[*]Loops through `hosts.txt` and performs basic availability checks.
+- [ ] Loops through `hosts.txt` and performs basic availability checks.
 
 ---
 
@@ -113,7 +113,7 @@ scp deploy_script.sh user@host:/tmp/
 ssh user@host "bash /tmp/deploy_script.sh && rm /tmp/deploy_script.sh"
 ```
 
-[*] Pushes and runs a provisioning script remotely, then removes it for cleanup.
+- [ ] Pushes and runs a provisioning script remotely, then removes it for cleanup.
 
 ---
 
